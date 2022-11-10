@@ -8,7 +8,7 @@ The original data can be found in `/data/Original Data`. To follow along in the 
 - `/Source-codes/LSTM-Vanilla-First-Trial.ipynb`
 - Following the above Jupyter Notebook, please execute the following files for model construction, training and tuning.
 ```bash 
-python lstm_trial_architectures.py       # Train different model architectures to see model progression
+python lstm_trial_architecture.py       # Train different model architectures to see model progression
 python lstm_final.py                     # Train the final model architectures ( with 9 and 3 labels )
 python hyperparameter_tuning.py          # Identify the best Hyperparameters for the final model
 ```
